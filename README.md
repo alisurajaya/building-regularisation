@@ -32,6 +32,5 @@ Git bash
 
 
 ## Notes
-1. all-regulatisation-time.py (without multiprocessing. took longer time to process)
-2. all-regulatisation-time-mp.py (using multiprocessing. distribute the data rowly to the each core processor)
-3. regularisation-v2 or main.py (using multiprocessing. distribute the data batchly (500 rows) to the core processor)
+1. all-regulatisation-time-mp.py (using multiprocessing. distribute the data rowly to the each core processor)
+2. regularisation-v2 or main.py (using multiprocessing. distribute the data batchly (500 rows) to the core processor)
