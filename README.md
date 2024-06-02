@@ -22,7 +22,7 @@ Git bash
 
 ### Install dependencies inside the activated venv
 ```
-    pip install -r requirements
+    pip install -r requirements.txt
 ```
 
 ## Running the project
