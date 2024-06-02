@@ -16,10 +16,10 @@ def main():
     # Record the start time
     start_time = time.time()
 
-    regularisation.create_mbr()
-    regularisation.generate_grid(grid_size=0.5)
+    regularisation.create_mbr() # Minimum Boundary Rectange (MBR)
+    regularisation.generate_grid(grid_size=0.5) # Grid size is in meters
     # cProfile.runctx("regularisation.grid_selection()", globals(), locals())
-    regularisation.grid_selection(threshold_percentage=50, id_field="id")
+    regularisation.grid_selection(threshold_percentage=50, id_field="id") # Treshold percentage is the minimum overlap between grid and the MBR
     regularisation.save_to_file()
 
     end_time = time.time()
