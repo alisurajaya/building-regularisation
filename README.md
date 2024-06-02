@@ -1,6 +1,6 @@
 # Building Footprint Regularisation
 
-This repository contains an algorithm for building footprint regularization. Extracted building footprints from imagery often have jagged edges due to the raster-to-vector conversion process. The input for this algorithm is a GeoJSON file of building footprints extracted from aerial or satellite imagery.  
+This repository contains an algorithm for building footprint regularization. Extracted building footprints from imagery often have jagged edges due to the raster-to-vector conversion process. This methods try to refine the building footprint/outline and removed the jagged edges. The input for this algorithm is a GeoJSON file of building footprints extracted from aerial or satellite imagery.  
 
 ## Preparation
 ### Create new virtual environment (venv)
